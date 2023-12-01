@@ -14,5 +14,6 @@ class RegistrationControllerTest extends WebTestCase
         $url = $crawler->getBaseHref();
 
         $this->assertResponseIsSuccessful();
+        $this->markTestIncomplete();
     }
 }
